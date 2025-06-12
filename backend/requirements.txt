@@ -1,0 +1,32 @@
+# Backend server
+fastapi
+uvicorn
+
+# Document parsing
+PyMuPDF  # for PDFs
+pytesseract
+pdf2image
+Pillow
+
+# OCR utilities
+opencv-python-headless
+numpy
+
+# Embeddings
+sentence-transformers
+
+# Vector store
+faiss-cpu
+
+# Data serialization
+pickle-mixin
+
+# Request handling (for Streamlit → FastAPI communication)
+requests
+
+# Frontend
+streamlit
+
+# CORS (if deploying separately)
+starlette
+python-multipart
